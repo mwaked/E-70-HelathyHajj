@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Healthy Hajj</string>
+    <string name="gallery">Gallery</string>
+    \
+    <string name="camera">Camera</string>
+    <string name="pick_image">Add Image</string>
+
+
+    <!--  Network connection-->
+    <string name="time_out_error">internet too slow , try again later ...</string>
+    <string name="connection_error">error in connection</string>
+    <string name="fill_empty_field">Please fill empty field!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="share_text">Share App</string>
+    <string name="no_network_found_please_check_your_connection_and_try_again">No internet connection, please check internet</string>
+    <string name="try_again">Try again</string>
+    <string name="detect_location">Detect Location</string>
+    <string name="detecting_location">Detect Location...</string>
+    <string name="gps_detect">Allow the app to use your location ?</string>
+    <string name="hometxt">Home</string>
+    <string name="advicestext">Advices</string>
+    <string name="profiletxt">Profile</string>
+    <string name="settingstxt">Settings</string>
+    <string name="SignUp">Registration</string>
+    <string name="redistration">SignUp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="advice_content">Type your advice or comment</string>
+    <string name="select_desease">Choose your diseases</string>
+
+    <string-array name="diseases">
+
+    <item>Amebiasis</item>
+    <item>Entamoeba histolytica</item>
+    <item>Anaplasmosis</item>
+    <item>Anaplasma species</item>
+    <item>Angiostrongyliasis</item>
+    <item>Angiostrongylus</item>
+    <item>Anisakiasis</item>
+    <item>Anisakis</item>
+    <item>Anthrax	Bacillus</item>
+    <item>anthracis</item>
+    <item>Arcanobacterium haemolyticum infection</item>
+    <item>Arcanobacterium haemolyticum</item>
+    <item>Argentine hemorrhagic fever</item>
+    <item>Junin virus</item>
+    <item>Ascariasis</item>
+    <item>Ascaris lumbricoides</item>
+    <item>Aspergillosis</item>
+    <item>Aspergillus species</item>
+    <item>Astrovirus infection</item>
+    <item>Astroviridae family</item>
+    <item>Babesiosis</item>
+    <item>Babesia species</item>
+    <item>Bacillus cereus infection</item>
+    <item>Bacillus cereus</item>
+    <item>Bacterial pneumonia</item>
+    <item>multiple bacteria</item>
+    <item>Bacterial vaginosis</item>
+    <item>List of bacterial</item>
+    <item>vaginosis microbiota</item>
+    <item>Bacteroides infection</item>
+    <item>Bacteroides species</item>
+    <item>Balantidiasis</item>
+    <item>Balantidium coli</item>
+    <item>Bartonellosis</item>
+    <item>Bartonella</item>
+    </string-array>
+
+</resources>

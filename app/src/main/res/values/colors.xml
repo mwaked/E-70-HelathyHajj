@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayOff">#818181</color>
+
+    <!-- swipe to refresh color -->
+
+    <color name="colorGraydark">#818181</color>
+    <color name="placeholder_grey">#c3c3c4</color>
+
+    <color name="colorPrimary">#0a8e85</color>
+    <color name="colorPrimaryDark">#0a8e85</color>
+    <color name="colorAccent">#0a8e85</color>
+    <color name="gray_light">#BBBBBB</color>
+
+
+    <color name="darkColorPrimary">#3F51B5</color>
+    <color name="darkColorPrimaryDark">#0a8e85</color>
+    <color name="darkColorAccent">#FF4081</color>
+    <color name="darkBacckground">#323030</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="bar">#0a8e85</color>
+    <color name="bar1">#1fc6b6</color>
+    <color name="like">#ed5871</color>
+    <color name="yellow">#fcb43c</color>
+    <color name="colorBlue">@android:color/holo_blue_dark</color>
+    <color name="trans">@android:color/transparent</color>
+
+
+    <!-- swipe to refresh color -->
+    <!--  -->
+    <color name="gray">#b1b5b9</color>
+    <color name="colorOffGray">#6d6d6d</color>
+    <color name="colorSelctText">#7a7a7a</color>
+    <color name="gray_very_light">#f1efef</color>
+    <color name="pdlg_color_red">#d81313</color>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:elevation="@dimen/_4sdp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/gray_very_light"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_32sdp">
+
+
+            <ImageView
+                android:id="@+id/iv_emoj"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:tint="@color/colorPrimary"
+                android:padding="@dimen/_2sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:src="@drawable/ic_emoj" />
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+                android:id="@+id/et_message_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_send"
+                android:layout_toRightOf="@+id/iv_emoj"
+                android:gravity="center_vertical"
+                android:hint="@string/advice_content"
+                android:background="#0d0a8e85"
+                android:imeOptions="actionSend"
+                android:inputType="textMultiLine"
+                android:textColorHint="@color/gray"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:textSize="@dimen/_10sdp"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                emojicon:emojiconSize="@dimen/_22sdp" />
+
+
+
+            <ImageView
+                android:id="@+id/iv_send"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:padding="@dimen/_5sdp"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/ic_send_black_24dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/recycle_incoming_message"/>
+
+
+            <include layout="@layout/recycle_outcoming_message"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    android:text="dgwtretrrte"
+    android:id="@+id/diseases_name"
+    android:gravity="center_vertical"
+    android:padding="@dimen/_10sdp"
+    android:background="@drawable/shape_strok"
+    android:backgroundTint="@color/gray_very_light"
+    android:textSize="@dimen/_10sdp" />
