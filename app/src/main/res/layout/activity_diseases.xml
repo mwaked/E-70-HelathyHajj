@@ -20,7 +20,6 @@
             android:text="@string/select_desease"
             android:textColor="@color/white"/>
 
-
     </RelativeLayout>
 
 
